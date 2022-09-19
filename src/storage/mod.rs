@@ -11,7 +11,6 @@ pub mod user;
 
 use sqlx;
 use thiserror::Error;
-use tokio::task::spawn_blocking;
 
 #[derive(Error, Debug)]
 pub enum StorageError {

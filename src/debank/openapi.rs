@@ -138,7 +138,7 @@ impl DebankOpenAPI {
         }
         Ok(res)
     }
-
+    #[allow(dead_code)]
     pub async fn chain_balance(
         &self,
         id: &str,
